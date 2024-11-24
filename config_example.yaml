@@ -1,0 +1,3 @@
+bleAddr: AA:BB:CC:DD:EE:FF
+ServerPort: 5652
+ScanMode: false
