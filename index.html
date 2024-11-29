@@ -43,7 +43,7 @@
     <script>
         async function fetchBPM() {
             try {
-                const response = await fetch("http://localhost:5652/");
+                const response = await fetch("/");
                 if (response.ok) {
                     const data = await response.json();
                     if (data.bpm !== undefined) {
